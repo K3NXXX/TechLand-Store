@@ -12,7 +12,7 @@ function App() {
         <Header/>
       </header>
         <Routes>
-            <Route path="/techland/" element={<Home/>}/>
+            <Route path="/techland-store/" element={<Home/>}/>
         </Routes>
         <Footer/>
     </div>
