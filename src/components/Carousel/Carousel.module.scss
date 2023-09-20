@@ -1,0 +1,26 @@
+.root {
+    padding-top: 20px;
+    :global {
+        .swiper {
+            @media (max-width:900px) {
+            }
+        }
+        .swiper-button-prev::after {
+            content: "";
+            position: absolute;
+            width: 46px;
+            height: 80px;
+            background-image: url("../../assets/carousel/prevBtn.svg") !important;
+        }
+        .swiper-button-next::after {
+            content: "";
+            position: absolute;
+            width: 46px;
+            height: 80px;
+            background-image: url("../../assets/carousel/nextBtn.svg") !important;
+        }
+    }
+    img {
+        max-width: 100%; 
+    }
+}

@@ -1,0 +1,220 @@
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    min-height: 90px;
+    .left {
+        display: flex;
+        gap: 0 40px;
+        align-items: center;
+        .logo {
+            position: relative;
+            z-index: 21;
+        }
+        .searchInput {
+            @media (max-width:670px) {
+                display: none;
+            }
+            position: relative;
+            input {
+                border-radius: 31px;
+                background: var(--Color---1, #F5F7FF);
+                padding: 20px 60px 20px 20px;
+                width: 1126px;
+                font-family: Poppins;
+                font-size: 14px;
+                @media (max-width:1410px) {
+                    width: 1000px;
+                }
+                @media (max-width:1280px) {
+                    width: 700px;
+                }
+                @media (max-width:1050px) {
+                    width: 400px;
+                }
+                @media (max-width:750px) {
+                    width: 300px;
+                }
+               
+            }
+            .searchInput__img {
+                position: absolute;
+                top: 22px;
+                right: 20px;
+                cursor: pointer;
+            }
+        }
+        .list {
+            display: flex;
+            gap: 0 25px;
+            align-items: center;
+            li {
+                border-bottom: 2px solid transparent;
+                a {
+                    color: #000;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                &:not(:last-child):hover {
+                    border-bottom: 2px solid #0156FF;
+                }
+            }
+            .unique {
+                color: #0156FF;
+                padding: 8px 26px;
+                border: 2px solid var(--Color---3, #0156FF);
+                border-radius: 50px;
+                transition: 0.3s ease;
+                &:hover {
+                        background-color: #0156FF;
+                        color: white;
+                    }
+            }
+            @media (max-width:1270px) {
+                display: none;
+            }
+        }
+       
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 0 40px;
+        position: relative;
+        z-index: 21;
+        img {
+            cursor: pointer;
+        }
+        .cart {
+            position: relative;
+            z-index: 21;
+            cursor: pointer;
+            span {
+                width: 17px;
+                height: 17px;
+                background-color: #0156FF;
+                border-radius: 50%;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FFF;
+                top: -9px;
+                right: -9px;
+                
+            }
+            @media(max-width:370px) {
+                display: none;
+            }
+        }
+
+       
+    }
+}
+.burgerMenu, .cartPhone, .phoneList, .searchInput2 {
+    display: none;
+   
+}
+@media(max-width:1270px) {
+        .burgerMenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+            position: relative;
+            z-index: 21;
+            span {
+                width: 100%;
+                height: 3px;
+                background-color: #0156FF;
+            }
+        }
+        .phoneList {
+            display: flex;
+            gap: 20px 0;
+            font-size: 20px;
+            flex-direction: column;
+            list-style: none;
+            padding-top: 150px;
+            padding-left: 30px;
+            background-color: #A2A6B0;
+            min-height: 100vh;
+            width: 300px;
+            border-radius: 0 20px 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 20;
+            a {
+                color: #0156FF;
+            }
+            @media (max-width:1000px) {
+                padding-top: 120px;
+            }
+            @media (max-width:460px) {
+                width: 230px;
+                font-size: 16px;
+            }
+            @media (max-width:370px) {
+            .cartPhone {
+                    width: 27px;
+                    display: flex;
+                    position: relative;
+                    z-index: 21;
+                    span {
+                        width: 17px;
+                        height: 17px;
+                        background-color: #0156FF;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #FFF;
+                        top: -9px;
+                        right: -52px;
+                    }
+                    p {
+                        margin-right: 10px;
+                        color: #0156FF;
+                    }
+                }
+}
+        }
+      
+}
+@media (max-width:670px) {
+    .close, .searchImg {
+        display: none;
+    }
+    .searchInput2 {
+        display: inline-block;
+        position: relative;
+        left: -10px;
+        input {
+            border-radius: 31px;
+            background: var(--Color---1, #F5F7FF);
+            width: 250px;
+            font-family: Poppins;
+            font-size: 14px;
+            padding: 10px 40px 10px 10px;
+            @media (max-width:460px) {
+                width: 180px;
+            }
+        }
+        .searchInput__img {
+            position: absolute;
+            top: 12px;
+            right: 30px;
+            cursor: pointer;
+        }
+    }
+}
+
