@@ -1,0 +1,85 @@
+.root {
+    position: relative;
+    margin-top: 30px;
+    .series {
+        display: flex;
+        gap: 0 25px;
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+        @media (max-width:1430px) {
+            justify-content: center;
+        }
+        @media (max-width:530px) {
+            gap: 15px 25px;
+        }
+        p {
+            color: #838383;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; 
+            cursor: pointer;
+        }
+        .active {
+            border-bottom: 2px solid #0156FF;
+        }
+    }
+    .content {
+        display: flex;
+        @media (max-width:1430px) {
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width:970px) {
+            flex-direction: column;
+    
+        }
+        .left {
+            position: relative;
+            @media (max-width:1430px) {
+                margin-bottom: 20px;
+            }
+            p {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 130%; 
+                position: absolute;
+                top: 140px;
+                left: 70px;
+                text-align: center;
+            }
+            a {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 115%; 
+                text-decoration-line: underline;
+                position: absolute;
+                bottom: 30px;
+                left: 65px;
+            }
+        }
+        .right {
+            display: grid;
+            grid-template-columns: repeat(5,234px);
+            text-align: center;
+            @media (max-width:1430px) {
+                grid-template-columns: repeat(3,234px);
+            }
+            @media (max-width:970px) {
+                grid-template-columns: repeat(2,234px);
+            }
+            @media (max-width:470px) {
+                grid-template-columns: repeat(1,234px);
+            }
+        }
+    }
+   
+}

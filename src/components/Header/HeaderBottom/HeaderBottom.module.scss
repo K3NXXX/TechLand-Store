@@ -4,6 +4,9 @@
     align-items: center;
     padding-top: 20px;
     min-height: 90px;
+    max-width: 1429px;
+    padding: 0 15px;
+    margin: 0 auto;
     .left {
         display: flex;
         gap: 0 40px;
@@ -49,6 +52,7 @@
             display: flex;
             gap: 0 25px;
             align-items: center;
+            list-style: none;
             li {
                 border-bottom: 2px solid transparent;
                 a {

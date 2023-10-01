@@ -20,7 +20,7 @@ const HeaderBottom: React.FC = () => {
     return (  
         <div className={style.bottom}>
             <div className={style.left}>
-                <Link to={"/techland"}><img className={style.logo} src={logo} alt="logo"/></Link>
+                <Link to={"/techland-store/"}><img className={style.logo} src={logo} alt="logo"/></Link>
                 <div onClick={():void => setOpenList(!openList)} className={style.burgerMenu}>
                     <span></span>
                     <span></span>
@@ -67,7 +67,11 @@ const HeaderBottom: React.FC = () => {
                     <img src={cart} alt="cart"/>
                     <span>3</span>
                 </div>
-                <div><img src={avatar} alt="avatar"/></div>
+                <div>
+                    <Link to={"/techland-store/login"}>
+                        <img src={avatar} alt="avatar"/>
+                    </Link>
+                </div>
             </div>
 
         </div>
