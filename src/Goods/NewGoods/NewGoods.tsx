@@ -19,15 +19,19 @@ const NewGoods: React.FC = () => {
     const {goods, status} = useSelector((state:RootState) => state.goodsSlice)
     const newGoods = goods.filter((item: goodsType) => item.type === "new")
     const skeleton = [...new Array(5)].map((_, index) => <Skeleton key={index}/>)
-
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     const receiveGoods = async () => {
         dispatch(fetchGoods())
     }
-    
+
     useEffect(() => {
         receiveGoods()
     }, [])
     
+   
+
     useEffect(() => {
         const resizeWindow = () : void => {
             if(window.innerWidth <= 480) {
