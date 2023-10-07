@@ -5,6 +5,8 @@ import {Routes, Route} from "react-router-dom"
 import Footer from "./components/Footer/Footer"
 import Login from "./pages/Login/Login"
 import NewGoodsAll from "./pages/NewGoodsAll/NewGoodsAll"
+import LaptopsAll from "./pages/LaptopsAll/LaptopsAll"
+import DesktopsAll from "./pages/DesktopsAll/DesktopsAll"
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Routes>
             <Route path="/techland-store/" element={<Home/>}/>
             <Route path="/techland-store/login" element={<Login/>}/>
+            <Route path="/techland-store/laptops" element={<LaptopsAll/>}/>
+            <Route path="/techland-store/desktops" element={<DesktopsAll/>}/>
             <Route path="/techland-store/new-goods" element={<NewGoodsAll/>}/>
         </Routes>
       </main>

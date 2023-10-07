@@ -1,9 +1,12 @@
 export type goodsType = {
     id: number;
     name: string;
-    price: number;
+    price: string;
     imageURL: string;
     type?: string,
     series: string;
-    rating: number
+    rating: number,
+    category: string,
+    color: string;
+    brand: string;
 }

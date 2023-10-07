@@ -1,0 +1,25 @@
+.wrapper {
+  margin: 0 auto;
+}
+
+.root {
+  padding-top: 20px;
+}
+.root :global .swiper-button-prev::after {
+  content: "";
+  position: absolute;
+  width: 46px;
+  height: 80px;
+  background-image: url("../../assets/carousel/prevBtn.svg") !important;
+}
+.root :global .swiper-button-next::after {
+  content: "";
+  position: absolute;
+  width: 46px;
+  height: 80px;
+  background-image: url("../../assets/carousel/nextBtn.svg") !important;
+}
+.root img {
+  max-width: 100%;
+  min-height: 328px;
+}/*# sourceMappingURL=Carousel.module.css.map */

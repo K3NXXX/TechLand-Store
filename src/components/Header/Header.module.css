@@ -1,0 +1,67 @@
+.header .wrapper {
+  background-color: #020202;
+}
+.header .wrapper .top {
+  padding: 0 15px;
+  min-height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1429px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .header .wrapper .top {
+    display: none;
+  }
+}
+.header .wrapper .top .workTime p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header .wrapper .top .workTime p span {
+  color: var(--Color---5, #A2A6B0);
+}
+.header .wrapper .top .address {
+  color: #ACACAC;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header .wrapper .top .address a {
+  color: var(--Color---5, #FFF);
+  border-bottom: 2px solid white;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.header .wrapper .top .phone {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.header .wrapper .top .phone p {
+  margin-right: 14px;
+}
+.header .wrapper .top .phone p a {
+  color: #FFF;
+}
+.header .wrapper .top .phone img {
+  cursor: pointer;
+}
+.header .wrapper .top .phone img:not(:last-child) {
+  margin-right: 8px;
+}/*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,215 @@
+.root {
+  padding-top: 50px;
+}
+
+.content {
+  display: flex;
+}
+.content .filters {
+  max-height: 980px;
+  max-width: 234px;
+  background: var(--Color---1, #F5F7FF);
+  padding: 20px;
+}
+.content .filters .filter__text {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.content .filters .clearFilters {
+  color: var(--Color---5, #A2A6B0);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid var(--Color---5, #A2A6B0);
+  padding: 5px 50px;
+  transition: 0.3s ease;
+  margin-bottom: 30px;
+}
+.content .filters .clearFilters:hover {
+  background-color: var(--Color---5, #b8b9bd);
+  color: #F5F7FF;
+}
+.content .filters .category, .content .filters .price {
+  margin-bottom: 30px;
+}
+.content .filters .category .category__name, .content .filters .price .category__name {
+  margin-bottom: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.content .filters .category .category__content, .content .filters .price .category__content {
+  display: flex;
+  justify-content: space-between;
+}
+.content .filters .category .category__content .category__list, .content .filters .price .category__content .category__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px 0;
+}
+.content .filters .category .category__content .category__list li, .content .filters .price .category__content .category__list li {
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.content .filters .category .category__content .category__list li:hover, .content .filters .price .category__content .category__list li:hover {
+  color: #0156FF;
+}
+.content .filters .category .category__content .category__list_numbers, .content .filters .price .category__content .category__list_numbers {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.content .filters .category .category__content .category__list_numbers li, .content .filters .price .category__content .category__list_numbers li {
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210%;
+  cursor: pointer;
+}
+.content .filters .color {
+  margin-bottom: 20px;
+}
+.content .filters .color .color__name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.content .filters .color .color__choose {
+  display: flex;
+  gap: 0 10px;
+}
+.content .filters .color .color__choose .black {
+  background-color: black;
+  border-radius: 100%;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+.content .filters .color .color__choose .red {
+  background-color: rgb(255, 0, 0);
+  border-radius: 100%;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+.content .filters .color .color__choose .black.active, .content .filters .color .color__choose .red.active {
+  border: 2px solid #0156FF;
+}
+.content .filters .applyFilters {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 50px;
+  background: var(--Color---3, #0156FF);
+  padding: 8px 35px;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+.content .filters .applyFilters:hover {
+  opacity: 0.7;
+}
+.content .filters .brands {
+  margin-bottom: 20px;
+}
+.content .filters .brands .brands__name {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content .filters .brands .brands__list {
+  display: grid;
+  grid-template-columns: repeat(2, 83px);
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.content .filters .brands img {
+  margin-top: 20px;
+  max-width: 83px;
+  cursor: pointer;
+  min-height: 46px;
+}
+.content .filters .chair {
+  max-width: 233px;
+  position: relative;
+  left: -19px;
+}
+.content .laptopGoods__list {
+  display: grid;
+  grid-template-columns: repeat(5, 235px);
+  min-height: 1541px;
+}
+.content .list__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.path {
+  display: flex;
+  gap: 0 5px;
+  margin-bottom: 20px;
+}
+.path a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.path .link1::after {
+  content: ">";
+  color: var(--Color---3, #0156FF);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}/*# sourceMappingURL=LaptopsAll.module.css.map */

@@ -1,0 +1,43 @@
+.root {
+  padding-top: 50px;
+}
+
+.newGoods__list {
+  display: grid;
+  grid-template-columns: repeat(6, 235px);
+  min-height: 620px;
+}
+
+.title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.path {
+  display: flex;
+  gap: 0 5px;
+  margin-bottom: 20px;
+}
+.path a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.path .link1::after {
+  content: ">";
+  color: var(--Color---3, #0156FF);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}/*# sourceMappingURL=NewGoodsAll.module.css.map */

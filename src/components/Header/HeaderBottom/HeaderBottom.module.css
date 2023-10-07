@@ -1,0 +1,240 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  min-height: 90px;
+  max-width: 1429px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.bottom .left {
+  display: flex;
+  gap: 0 40px;
+  align-items: center;
+}
+.bottom .left .logo {
+  position: relative;
+  z-index: 21;
+}
+.bottom .left .searchInput {
+  position: relative;
+}
+@media (max-width: 670px) {
+  .bottom .left .searchInput {
+    display: none;
+  }
+}
+.bottom .left .searchInput input {
+  border-radius: 31px;
+  background: var(--Color---1, #F5F7FF);
+  padding: 20px 60px 20px 20px;
+  width: 1126px;
+  font-family: Poppins;
+  font-size: 14px;
+}
+@media (max-width: 1410px) {
+  .bottom .left .searchInput input {
+    width: 1000px;
+  }
+}
+@media (max-width: 1280px) {
+  .bottom .left .searchInput input {
+    width: 700px;
+  }
+}
+@media (max-width: 1050px) {
+  .bottom .left .searchInput input {
+    width: 400px;
+  }
+}
+@media (max-width: 750px) {
+  .bottom .left .searchInput input {
+    width: 300px;
+  }
+}
+.bottom .left .searchInput .searchInput__img {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  cursor: pointer;
+}
+.bottom .left .list {
+  display: flex;
+  gap: 0 25px;
+  align-items: center;
+  list-style: none;
+}
+.bottom .left .list li {
+  border-bottom: 2px solid transparent;
+}
+.bottom .left .list li a {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bottom .left .list li:not(:last-child):hover {
+  border-bottom: 2px solid #0156FF;
+}
+.bottom .left .list .unique {
+  color: #0156FF;
+  padding: 8px 26px;
+  border: 2px solid var(--Color---3, #0156FF);
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+.bottom .left .list .unique:hover {
+  background-color: #0156FF;
+  color: white;
+}
+@media (max-width: 1270px) {
+  .bottom .left .list {
+    display: none;
+  }
+}
+.bottom .right {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+  position: relative;
+  z-index: 21;
+}
+.bottom .right img {
+  cursor: pointer;
+}
+.bottom .right .cart {
+  position: relative;
+  z-index: 21;
+  cursor: pointer;
+}
+.bottom .right .cart span {
+  width: 17px;
+  height: 17px;
+  background-color: #0156FF;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  top: -9px;
+  right: -9px;
+}
+@media (max-width: 370px) {
+  .bottom .right .cart {
+    display: none;
+  }
+}
+
+.burgerMenu, .cartPhone, .phoneList, .searchInput2 {
+  display: none;
+}
+
+@media (max-width: 1270px) {
+  .burgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 21;
+  }
+  .burgerMenu span {
+    width: 100%;
+    height: 3px;
+    background-color: #0156FF;
+  }
+  .phoneList {
+    display: flex;
+    gap: 20px 0;
+    font-size: 20px;
+    flex-direction: column;
+    list-style: none;
+    padding-top: 150px;
+    padding-left: 30px;
+    background-color: #A2A6B0;
+    min-height: 100vh;
+    width: 300px;
+    border-radius: 0 20px 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .phoneList a {
+    color: #0156FF;
+  }
+}
+@media (max-width: 1270px) and (max-width: 1000px) {
+  .phoneList {
+    padding-top: 120px;
+  }
+}
+@media (max-width: 1270px) and (max-width: 460px) {
+  .phoneList {
+    width: 230px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1270px) and (max-width: 370px) {
+  .phoneList .cartPhone {
+    width: 27px;
+    display: flex;
+    position: relative;
+    z-index: 21;
+  }
+  .phoneList .cartPhone span {
+    width: 17px;
+    height: 17px;
+    background-color: #0156FF;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    top: -9px;
+    right: -52px;
+  }
+  .phoneList .cartPhone p {
+    margin-right: 10px;
+    color: #0156FF;
+  }
+}
+@media (max-width: 670px) {
+  .close, .searchImg {
+    display: none;
+  }
+  .searchInput2 {
+    display: inline-block;
+    position: relative;
+    left: -10px;
+  }
+  .searchInput2 input {
+    border-radius: 31px;
+    background: var(--Color---1, #F5F7FF);
+    width: 250px;
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 10px 40px 10px 10px;
+  }
+}
+@media (max-width: 670px) and (max-width: 460px) {
+  .searchInput2 input {
+    width: 180px;
+  }
+}
+@media (max-width: 670px) {
+  .searchInput2 .searchInput__img {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=HeaderBottom.module.css.map */

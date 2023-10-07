@@ -25,15 +25,17 @@ const Laptops: React.FC = () => {
                 )) }
             </div>
             <div className={style.content}>
+                <Link to="/techland-store/laptops">
                 <div className={style.left}>
                     <img src={laptopsImg} alt="laptops image" />
                     <p>MSI<br/>Laptops</p>
-                    <Link to="">See All Products</Link>
+                    <Link to="/techland-store/laptops">See All Products</Link>
                 </div>
+                </Link>
                 <div className={style.right}>
                 {
                 active == null ? (
-                    laptopsGoods.map((good) => <GoodsCard key={good.id} good={good} />)
+                    laptopsGoods.slice(0,5).map((good) => <GoodsCard key={good.id} good={good} />)
                 ) : laptopsGoods.filter((good) => good.series === series).length ? (
                     laptopsGoods
                     .filter((good) => good.series === series)

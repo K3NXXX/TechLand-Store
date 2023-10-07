@@ -10,14 +10,15 @@ export enum Status {
 
 type initialStateType = {
     goods: goodsType[];
-    isLoading:boolean;
     status: string;
+    currentPage: number,
+
 }
 
 const initialState:initialStateType = {
     goods: [],
-    isLoading: true,
     status: Status.LOADING,
+    currentPage: 0
 }
 
 export const fetchGoods = createAsyncThunk(`goods/fetchGoodsById`, async (_ , thunkAPI) => {
@@ -33,9 +34,10 @@ const goodsSlice = createSlice({
         setGoods(state, action) {
             state.goods = action.payload
         },
-        setIsLoading(state, action) {
-            state.isLoading = action.payload
-        }
+        setCurrentPage(state, action) {
+            state.currentPage = action.payload
+        },
+      
     },
     extraReducers: (builder) => {
         builder.addCase(fetchGoods.pending, (state) => {
@@ -51,5 +53,5 @@ const goodsSlice = createSlice({
         })
     }
 })
-export const {setGoods, setIsLoading} = goodsSlice.actions
+export const {setGoods, setCurrentPage} = goodsSlice.actions
 export default goodsSlice.reducer
