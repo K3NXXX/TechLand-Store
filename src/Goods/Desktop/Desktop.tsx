@@ -11,12 +11,12 @@ const Desktops:React.FC = () => {
     const [active, setActive] = useState<number | null>(null)
     const goods = useSelector((state:RootState) => state.goodsSlice.goods)
     const desktopsGoods = goods.filter(item => item.type == "desktops")
-    const laptopsSeries: string[] = ["MSI Infinute Series", "MSI Triden", "MSI GL Series", "MSI Nightblade"]
+    const desktopsSeries: string[] = ["MSI Infinute Series", "MSI Triden", "MSI GL Series", "MSI Nightblade"]
     const [series, setSeries] = useState("")
     return (  
         <div className={style.root}>
             <div className={style.series}>
-                {laptopsSeries.map((item, index) => (
+                {desktopsSeries.map((item, index) => (
                     <p onClick={() => {
                         setActive(index)
                         setSeries(item)

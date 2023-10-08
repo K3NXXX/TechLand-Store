@@ -5,6 +5,23 @@
     display: grid;
     grid-template-columns: repeat(6,235px);
     min-height: 620px;
+    justify-content: center;
+    margin-bottom: 50px;
+    @media (max-width:1450px) {
+        grid-template-columns: repeat(5,235px);
+    }
+    @media (max-width:1190px) {
+        grid-template-columns: repeat(4,235px);
+    }
+    @media (max-width:940px) {
+        grid-template-columns: repeat(3,235px);
+    }
+    @media (max-width:740px) {
+        grid-template-columns: repeat(2,235px);
+    }
+    @media (max-width:490px) {
+        grid-template-columns: repeat(1,235px);
+    }
 }
 .title {
     color: #000;

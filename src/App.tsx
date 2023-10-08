@@ -7,6 +7,7 @@ import Login from "./pages/Login/Login"
 import NewGoodsAll from "./pages/NewGoodsAll/NewGoodsAll"
 import LaptopsAll from "./pages/LaptopsAll/LaptopsAll"
 import DesktopsAll from "./pages/DesktopsAll/DesktopsAll"
+import GoodsFull from "./pages/GoodsFull/GoodsFull"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/techland-store/laptops" element={<LaptopsAll/>}/>
             <Route path="/techland-store/desktops" element={<DesktopsAll/>}/>
             <Route path="/techland-store/new-goods" element={<NewGoodsAll/>}/>
+            <Route path="/techland-store/good-detail/:id" element={<GoodsFull/>}/>
         </Routes>
       </main>
       <footer>
