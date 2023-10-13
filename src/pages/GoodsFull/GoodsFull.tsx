@@ -8,16 +8,13 @@ import { goodsType } from "../../lists/goodsList"
 import {useEffect} from "react"
 import axios from "axios"
 import { fetchGoods } from "../../redux/slices/goodsSlice"
-import { CartItemType, addItems, minusItems } from "../../redux/slices/cartSlice"
-import { useDispatch, useSelector } from "react-redux"
-import { RootState } from "../../redux/store"
+import { CartItemType, addItems } from "../../redux/slices/cartSlice"
+import { useDispatch } from "react-redux"
 
 const GoodsFull:React.FC = () => {
     const [activeDetail, setActiveDetail] = useState<number>(0)
     const detailsList = ["About Product", "Details", "Specs"]
-    const {items} = useSelector((state:RootState) => state.cartSlice)
     const [goods, setGoods] = useState<goodsType>()
-    const [count, setCount] = useState(1)
     const {id} = useParams()
     const dispatch = useDispatch()
 
