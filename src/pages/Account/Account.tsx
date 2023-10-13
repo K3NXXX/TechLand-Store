@@ -59,7 +59,7 @@ const Account: React.FC = () => {
                 </nav>
                 <div className={style.content__right}>
                     {activeNav == 0 && (
-                        <div>
+                        <div className={style.content__right_wrapper}>
                             <h4 className={style.right__title}>Account Information</h4>
                             <div className={style.greyLine}></div>
                             <div className={style.right__content}>
