@@ -9,4 +9,5 @@ export type goodsType = {
     category: string,
     color: string;
     brand: string;
+    count: number
 }

@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import style from "./GoodsFull.module.scss"
 import {useState} from "react"
 import zip from "../../assets/goods/zip.svg"
@@ -8,14 +8,22 @@ import { goodsType } from "../../lists/goodsList"
 import {useEffect} from "react"
 import axios from "axios"
 import { fetchGoods } from "../../redux/slices/goodsSlice"
+import { CartItemType, addItems, minusItems } from "../../redux/slices/cartSlice"
+import { useDispatch, useSelector } from "react-redux"
+import { RootState } from "../../redux/store"
 
 const GoodsFull:React.FC = () => {
     const [activeDetail, setActiveDetail] = useState<number>(0)
     const detailsList = ["About Product", "Details", "Specs"]
+    const {items} = useSelector((state:RootState) => state.cartSlice)
     const [goods, setGoods] = useState<goodsType>()
     const [count, setCount] = useState(1)
     const {id} = useParams()
+    const dispatch = useDispatch()
 
+   
+
+    
     useEffect(() => {
         async function fetchGoods () {
             try {
@@ -27,7 +35,19 @@ const GoodsFull:React.FC = () => {
         }
         fetchGoods()
     }, [fetchGoods])
-
+    const onClickAdd = () : void => {
+        if (goods) {
+            const item: CartItemType = {
+                id: goods.id || 0,
+                name: goods.name || "",
+                price: goods.price ? Number(goods.price) : 0,
+                imageURL: goods.imageURL || "",
+                count: 0,
+            }
+            dispatch(addItems(item))
+        }
+    }
+  
     if (!goods) {
         return <>Loading...</>
     }
@@ -48,27 +68,8 @@ const GoodsFull:React.FC = () => {
                     </ul>
                 </div>
                 <div className={style.top__right}>
-                    <div className={style.price}>
                         <p>${goods.price}</p>
-                        <div className={style.change}>
-                            <p className={style.number}>{count}</p>
-                            <div>
-                                <svg onClick={() => {
-                                    setCount(count + 1)
-
-                                }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                    <path d="M6 9L8 7L10 9" stroke="#A2A6B0" strokeWidth="1.6" strokeLinecap="round"/>
-                                </svg>
-                                <svg onClick={() => {
-                                    setCount(count - 1)
-                                    if(count <= 1) setCount(1)
-                                    }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                    <path d="M10 7L8 9L6 7" stroke="#A2A6B0" strokeWidth="1.6" strokeLinecap="round"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <button>Add to Cart</button>
+                    <button onClick={onClickAdd}>Add to Cart</button>
                 </div>
             </div>
             <div className={style.product}>

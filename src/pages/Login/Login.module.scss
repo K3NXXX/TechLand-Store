@@ -2,6 +2,7 @@
     display: flex;
     gap: 0 5px;
     margin-bottom: 20px;
+    padding-top: 20px;
     a {
         color: #000;
         font-family: Poppins;
@@ -86,6 +87,12 @@
                 line-height: 210%; 
                 margin-bottom: 10px;
             }
+            .input__wrapper {
+                min-height: 100px;
+                .error {
+                    color: red;
+                }
+            }
             input {
                 color: #000;
                 font-family: Poppins;
@@ -98,7 +105,6 @@
                 border-radius: 4px;
                 border: 1px solid var(--Color---5, #A2A6B0);
                 background: #FFF;
-                margin-bottom: 30px;
                 @media (max-width:620px) {
                     width: 300px;
                     text-align: center;
@@ -110,6 +116,30 @@
                 }
                 &::placeholder {
                     color: var(--Color---5, #A2A6B0);
+                }
+            }
+            .signIn {
+                position: relative;
+                display: flex;
+                align-items: center;
+                gap: 0 20px;
+                @media (max-width:620px) {
+                    flex-direction: column;
+                    gap: 10px 0;
+                }
+                .loginError {
+                    position: absolute;
+                    top: -23px;
+                    left: 0;
+                    color: red;
+                }
+                span {
+                    color: var(--Color---10, #666);
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
                 }
             }
         }
@@ -205,3 +235,26 @@
         }
     }
 }
+.signIn__wrapper {
+    position: relative;
+    img {
+        max-width: 25px;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+    }
+    .signInWithGoogleBtn {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 50px;
+        background: var(--Color---3, #bbbbbb);
+        padding: 15px 45px;
+    }
+
+}
+

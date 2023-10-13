@@ -1,0 +1,109 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    max-width: 916px;
+    align-items: center;
+    border-bottom: 1px solid #CACDD8;
+    gap: 0 20px;
+    @media (max-width:1360px) {
+        min-width: 800px;
+    }
+    @media (max-width:800px) {
+        min-width: 400px;
+    }
+    @media (max-width:870px) {
+        flex-direction: column;
+        padding-bottom: 20px;
+        max-width: 400px;
+        min-width: 400px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    @media (max-width:500px) {
+        max-width: 320px;
+        min-width: 320px;
+      
+    }
+   
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        @media (max-width:450px) {
+            gap: 20px;
+        }
+      
+    }
+    .good__image {
+        img {
+            max-width: 150px;
+        }
+    }
+    .name {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 271px;
+    }
+    .good__price, .subtotal {
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 50px;
+    }
+    .price {
+        display: flex;
+        border-radius: 6px;
+        background: var(--Color---1, #F5F7FF);
+        padding: 10px;
+        align-items: center;
+        user-select: none;
+        width: 60px;
+        height: 60px;
+        p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 5px 10px 5px 5px;
+
+        }
+        .change {
+            display: flex;
+            align-items: center;
+            p {
+                color: var(--Color---7, #000);
+                text-align: center;
+                font-family: Poppins;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 210%;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                svg {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .remove {
+        cursor: pointer;
+    }
+}

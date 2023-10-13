@@ -1,0 +1,147 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  .wrapper h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .wrapper h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #4070f4;
+  }
+  .wrapper form{
+    margin-top: 30px;
+  }
+  .wrapper form .inputBox{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .inputBox input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-family: "Poppins";
+  }
+  .inputBox input:focus,
+  .inputBox input:valid{
+    border-color: #4070f4;
+  }
+  form .policy{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    p {
+      position: absolute;
+      bottom: -23px;
+      left: 0;
+      color: red;
+    }
+    button{
+        color: #fff;
+        letter-spacing: 1px;
+        border: none;
+        background: #4070f4;
+        cursor: pointer;
+        padding: 10px 130px;
+        transition: 0.3s ease;
+        @media (max-width:470px) {
+            padding: 10px 50px;
+        }
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+}
+  .button input:hover{
+    background: #0e4bf1;
+  }
+  form .text h3{
+   color: #333;
+   width: 100%;
+   text-align: center;
+  }
+  form .text h3 a{
+    color: #4070f4;
+    text-decoration: none;
+  }
+  form .text h3 a:hover{
+    text-decoration: underline;
+  }
+  .error {
+    color: red;
+  }
+.or {
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.signUp__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  img {
+    max-width: 25px;
+    position: absolute;
+    top: 8px;
+    left: 65px;
+  }
+  .signUpWithGoogle {
+      color: #fff;
+      letter-spacing: 1px;
+      border: none;
+      background: #b8b8b8;
+      cursor: pointer;
+      padding: 10px 50px;
+      transition: 0.3s ease;
+      @media (max-width:470px) {
+          padding: 10px 30px;
+      }
+  }
+
+}
