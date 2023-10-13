@@ -1,257 +1,684 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$499.00",
+        "price": "499",
         "imageURL": "/goodsImages/img1.png",
         "type": "new",
         "rating": 4
     },
     {
-        "id": 2,
+        "id": "2",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$550.00",
+        "price": "550",
         "imageURL": "/goodsImages/img2.png",
         "type": "new",
         "rating": 5
     },
     {
-        "id": 3,
+        "id": "3",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$480.00",
+        "price": "480",
         "imageURL": "/goodsImages/img3.png",
         "type": "new",
         "rating": 4
     },
     {
-        "id": 4,
+        "id": "4",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$700.00",
+        "price": "700",
         "imageURL": "/goodsImages/img4.png",
         "type": "new",
         "rating": 4
     },
     {
-        "id": 5,
+        "id": "5",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$670.00",
+        "price": "670",
         "imageURL": "/goodsImages/img5.png",
         "type": "new",
         "rating": 5
     },
     {
-        "id": 6,
+        "id": "6",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$878.00",
+        "price": "878",
         "imageURL": "/goodsImages/img6.png",
         "type": "new",
         "rating": 5
     },
     {
-        "id": 7,
+        "id": "7",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$780.00",
+        "price": "780",
         "imageURL": "/goodsImages/img7.png",
         "type": "new",
         "rating": 5
     },
     {
-        "id": 8,
+        "id": "8",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$810.00",
+        "price": "810",
         "imageURL": "/goodsImages/img8.png",
         "type": "new",
         "rating": 3
     },
     {
-        "id": 9,
+        "id": "9",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$680.00",
+        "price": "680",
         "imageURL": "/goodsImages/img9.png",
         "type": "new",
         "rating": 3
     },
     {
-        "id": 10,
+        "id": "10",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$640.00",
+        "price": "640",
         "imageURL": "/goodsImages/img10.png",
         "type": "custom",
         "rating": 5
     },
     {
-        "id": 11,
+        "id": "11",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$590.00",
+        "price": "590",
         "imageURL": "/goodsImages/img11.png",
         "type": "custom",
         "rating": 4
     },
     {
-        "id": 12,
+        "id": "12",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$790.00",
+        "price": "790",
         "imageURL": "/goodsImages/img12.png",
         "type": "custom",
         "rating": 4
     },
     {
-        "id": 13,
+        "id": "13",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$680.00",
+        "price": "680",
         "imageURL": "/goodsImages/img13.png",
         "type": "custom",
         "rating": 4
     },
     {
-        "id": 14,
+        "id": "14",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$840.00",
+        "price": "840",
         "imageURL": "/goodsImages/img14.png",
         "type": "custom",
         "rating": 5
     },
     {
-        "id": 15,
+        "id": "15",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$700.00",
+        "price": "700",
         "imageURL": "/goodsImages/img15.png",
         "type": "laptops",
         "series": "MSI GS Series", 
-        "rating": 4
+        "rating": 4,
+        "category": "CUSTOM Laptops",
+        "color": "black",
+        "brand": "roccat"
     },
     {
-        "id": 16,
+        "id": "16",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$640.00",
+        "price": "640",
         "imageURL": "/goodsImages/img16.png",
         "type": "laptops",
         "series": "MSI GS Series", 
-        "rating": 4
+        "rating": 4,
+        "category": "CUSTOM Laptops",
+        "color": "black",
+        "brand": "roccat"
     },
     {
-        "id": 17,
+        "id": "17",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$770.00",
+        "price": "770",
         "imageURL": "/goodsImages/img17.png",
         "type": "laptops",
         "series": "MSI GT Series",
-        "rating": 3
+        "rating": 3,
+        "category": "CUSTOM Laptops",
+        "color": "black",
+        "brand": "roccat"
 
     },
     {
-        "id": 18,
+        "id": "18",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$820.00",
+        "price": "820",
         "imageURL": "/goodsImages/img17.png",
         "type": "laptops",
         "series": "MSI GE Series",
-        "rating": 4
+        "rating": 4,
+        "category": "CUSTOM Laptops",
+        "color": "black",
+        "brand": "roccat"
 
     },
     {
-        "id": 19,
+        "id": "19",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$810.00",
+        "price": "810",
         "imageURL": "/goodsImages/img18.png",
         "type": "laptops",
         "series": "MSI GE Series",
-        "rating": 4
+        "rating": 4,
+        "category": "CUSTOM Laptops",
+        "color": "red",
+        "brand": "msi"
 
     },
     {
-        "id": 20,
+        "id": "20",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$760.00",
+        "price": "760",
         "imageURL": "/goodsImages/img20.png",
         "type": "desktops",
         "series": "MSI Infinute Series",
-        "rating": 5
+        "rating": 5,
+        "category": "CUSTOM Desktops",
+        "color": "red",
+        "brand": "msi"
 
     },
     {
-        "id": 21,
+        "id": "21",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$540.00",
+        "price": "540",
         "imageURL": "/goodsImages/img21.png",
         "type": "desktops",
         "series": "MSI Triden",
-        "rating": 5
+        "rating": 5,
+        "category": "CUSTOM Desktops",
+        "color": "red",
+        "brand": "msi"
 
     },
     {
-        "id": 22,
+        "id": "22",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$800.00",
+        "price": "800",
         "imageURL": "/goodsImages/img30.png",
         "type": "desktops",
         "series": "MSI GL Series",
-        "rating": 5
+        "rating": 5,
+        "category": "CUSTOM Desktops",
+        "color": "red",
+        "brand": "msi"
 
     },
     {
-        "id": 23,
+        "id": "23",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$900.00",
+        "price": "900",
         "imageURL": "/goodsImages/img23.png",
         "type": "desktops",
         "series": "MSI GL Series",
-        "rating": 4
+        "rating": 4,
+        "category": "CUSTOM Desktops",
+        "color": "red",
+        "brand": "msi"
 
     },
     {
-        "id": 24,
+        "id": "24",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$760.00",
+        "price": "760",
         "imageURL": "/goodsImages/img23.png",
         "type": "desktops",
         "series": "MSI Nightblade",
-        "rating": 4
+        "rating": 4,
+        "category": "CUSTOM Desktops",
+        "color": "red",
+        "brand": "msi"
 
     },
     {
-        "id": 25,
+        "id": "25",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$600.00",
+        "price": "600",
         "imageURL": "/goodsImages/img25.png",
         "type": "monitors",
         "rating": 4
 
     },
     {
-        "id": 26,
+        "id": "26",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$630.00",
+        "price": "630",
         "imageURL": "/goodsImages/img26.png",
         "type": "monitors",
         "rating": 5
 
     },
     {
-        "id": 27,
+        "id": "27",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$650.00",
+        "price": "650",
         "imageURL": "/goodsImages/img27.png",
         "type": "monitors",
         "rating": 4
 
     },
     {
-        "id": 28,
+        "id": "28",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$700.00",
+        "price": "700",
         "imageURL": "/goodsImages/img28.png",
         "type": "monitors",
         "rating": 4
 
     },
     {
-        "id": 29,
+        "id": "29",
         "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "$690.00",
+        "price": "690",
         "imageURL": "/goodsImages/img29.png",
         "type": "monitors",
         "rating": 3
-
+    },
+    {
+        "id": "30",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1100",
+        "imageURL": "/goodsImages/img31.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "black",
+        "brand": "msi"
+    },
+    {
+        "id": "31",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1500",
+        "imageURL": "/goodsImages/img31.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "red",
+        "brand": "msi"
+    },
+    {
+        "id": "32",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1600",
+        "imageURL": "/goodsImages/img32.png",
+        "type": "laptops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "red",
+        "brand": "msi"
+    },
+    {
+        "id": "33",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "2690",
+        "imageURL": "/goodsImages/img33.png",
+        "type": "laptops",
+        "rating": 3,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "red",
+        "brand": "msi"
+    },
+    {
+        "id": "34",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "3690",
+        "imageURL": "/goodsImages/img34.png",
+        "type": "laptops",
+        "rating": 3,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "red",
+        "brand": "razer"
+    },
+    {
+        "id": "35",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1700",
+        "imageURL": "/goodsImages/img35.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "red",
+        "brand": "razer"
+    },
+    {
+        "id": "36",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "3690",
+        "imageURL": "/goodsImages/img36.png",
+        "type": "laptops",
+        "rating": 3,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "red",
+        "brand": "razer"
+    },
+    {
+        "id": "37",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "2500",
+        "imageURL": "/goodsImages/img37.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "black",
+        "brand": "razer"
+    },
+    {
+        "id": "38",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "3690",
+        "imageURL": "/goodsImages/img38.png",
+        "type": "laptops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Laptops",
+        "color": "black"
+    },
+    {
+        "id": "39",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "5490",
+        "imageURL": "/goodsImages/img39.png",
+        "type": "laptops",
+        "rating": 4,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "razer"
+    },
+    {
+        "id": "40",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "3690",
+        "imageURL": "/goodsImages/img40.png",
+        "type": "laptops",
+        "rating": 3,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "41",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "2640",
+        "imageURL": "/goodsImages/img41.png",
+        "type": "laptops",
+        "rating": 3,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "42",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "4290",
+        "imageURL": "/goodsImages/img42.png",
+        "type": "laptops",
+        "rating": 3,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "43",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "5290",
+        "imageURL": "/goodsImages/img43.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "44",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "2990",
+        "imageURL": "/goodsImages/img44.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "HP/COMPAQ Laptops",
+        "color": "red",
+        "brand": "adata"
+    },
+    {
+        "id": "45",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "6490",
+        "imageURL": "/goodsImages/img45.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "HP/COMPAQ Laptops",
+        "color": "red",
+        "brand": "adata"
+    },
+    {
+        "id": "46",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "6690",
+        "imageURL": "/goodsImages/img46.png",
+        "type": "laptops",
+        "rating": 4,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "hp"
+    },
+    {
+        "id": "47",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "3650",
+        "imageURL": "/goodsImages/img47.png",
+        "type": "laptops",
+        "rating": 4,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "hp"
+    },
+    {
+        "id": "48",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "4290",
+        "imageURL": "/goodsImages/img48.png",
+        "type": "laptops",
+        "rating": 2,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "hp"
+    },
+    {
+        "id": "49",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "5550",
+        "imageURL": "/goodsImages/img48.png",
+        "type": "laptops",
+        "rating": 5,
+        "category": "HP/COMPAQ Laptops",
+        "color": "black",
+        "brand": "hp"
+    },
+    {
+        "id": "50",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1300",
+        "imageURL": "/goodsImages/img50.webp",
+        "type": "desktops",
+        "series": "MSI Nightblade",
+        "rating": 4,
+        "category": "CUSTOM Desktops",
+        "color": "red",
+        "brand": "msi"
+    },
+    {
+        "id": "51",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1300",
+        "imageURL": "/goodsImages/img51.webp",
+        "type": "desktops",
+        "series": "MSI Nightblade",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "red",
+        "brand": "adata"
+    },
+    {
+        "id": "52",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1560",
+        "imageURL": "/goodsImages/img52.webp",
+        "type": "desktops",
+        "series": "MSI Nightblade",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "red",
+        "brand": "adata"
+    },
+    {
+        "id": "53",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1450",
+        "imageURL": "/goodsImages/img53.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "black",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "54",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1340",
+        "imageURL": "/goodsImages/img54.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "red",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "55",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "6530",
+        "imageURL": "/goodsImages/img55.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "black",
+        "brand": "thermaltake"
+    },
+    {
+        "id": "56",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "4360",
+        "imageURL": "/goodsImages/img56.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "black",
+        "brand": "roccat"
+    },
+    {
+        "id": "57",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "1420",
+        "imageURL": "/goodsImages/img57.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "black",
+        "brand": "roccat"
+    },
+    {
+        "id": "58",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "4320",
+        "imageURL": "/goodsImages/img58.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "red",
+        "brand": "roccat"
+    },
+    {
+        "id": "59",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "2140",
+        "imageURL": "/goodsImages/img59.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "red",
+        "brand": "razer"
+    },
+    {
+        "id": "60",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "5460",
+        "imageURL": "/goodsImages/img60.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "black",
+        "brand": "razer"
+    },
+    {
+        "id": "61",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "7650",
+        "imageURL": "/goodsImages/img61.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "MSI ALL-IN-ONE Desktops",
+        "color": "red",
+        "brand": "hp"
+    },
+    {
+        "id": "62",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "6310",
+        "imageURL": "/goodsImages/img62.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "black",
+        "brand": "hp"
+    },
+    {
+        "id": "63",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "3450",
+        "imageURL": "/goodsImages/img63.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "black",
+        "brand": "hp"
+    },
+    {
+        "id": "64",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "5900",
+        "imageURL": "/goodsImages/img64.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "red",
+        "brand": "hp"
+    },
+    {
+        "id": "65",
+        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "price": "4200",
+        "imageURL": "/goodsImages/img65.webp",
+        "type": "desktops",
+        "rating": 4,
+        "category": "HP/COMPAQ Desktops",
+        "color": "black",
+        "brand": "hp"
     }
 ]
