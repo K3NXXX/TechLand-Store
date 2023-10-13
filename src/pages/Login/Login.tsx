@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import style from "./Login.module.scss"
 import Services from "../../components/Services/Services";
-import {get, useForm} from "react-hook-form"
+import { useForm} from "react-hook-form"
 import { UserDataType } from "../Registration/Registration";
 import { GoogleAuthProvider, getAuth, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { app } from "../../auth/firebase";

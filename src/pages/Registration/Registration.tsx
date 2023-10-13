@@ -4,7 +4,6 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { app } from "../../auth/firebase";
 import { useNavigate } from "react-router-dom";
 import {useState} from "react"
-import { useDispatch } from "react-redux";
 
 export type UserDataType = {
     name: string;
