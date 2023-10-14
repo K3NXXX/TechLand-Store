@@ -11,6 +11,8 @@ import { RootState } from "../../../redux/store"
 import { getAuth, onAuthStateChanged } from "firebase/auth"
 import { setUserAuth } from "../../../redux/slices/authSlice"
 import noAccountImg from "../../../assets/account/no-account.png"
+import { setSearchValue } from "../../../redux/slices/goodsSlice"
+import SearchItem from "./SearchItem/SearchItem"
 
 
 const HeaderBottom: React.FC = () => {
@@ -18,10 +20,11 @@ const HeaderBottom: React.FC = () => {
     const {avatar} = useSelector((state:RootState) => state.authSlice)
     const [openList, setOpenList] = useState<boolean>(false)
     const listRef = useRef<HTMLDivElement>(null)
-    const headerList: string[] = ["Laptops", "Desktop PCs", "Networking Devices", "Printers & Scanners", "PC Parts", "All Other Products", "Repairs", "Our Deals"]
+    const headerList: string[] = ["Laptops", "Desktop PCs"]
     const isMounted = useRef(false)
     const {items, totalPrice} = useSelector((state:RootState) => state.cartSlice)
     const totalCount = items.reduce((sum, item) => sum + item.count, 0)
+    const {searchValue, goods} = useSelector((state:RootState) => state.goodsSlice)
     useClickOutside(listRef, ():void => {
         if (openList) setTimeout(() => setOpenList(false), 50)
     })
@@ -32,11 +35,9 @@ const HeaderBottom: React.FC = () => {
     
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
-    if (user) {
-        dispatch(setUserAuth(true))
-        
-    } else {
-    }
+        if (user) {
+            dispatch(setUserAuth(true))
+        }
     });
 
     useEffect(() => {
@@ -59,14 +60,33 @@ const HeaderBottom: React.FC = () => {
                     <span></span>
                 </div>
                 {activeSearch ? (
-                    <div className={style.searchInput}>
-                        <input type="text" placeholder="Search entiere store here..."/>
-                        <img className={style.searchInput__img} src={search} alt="search"/>
+                    <div className={style.seach__wrapper}>
+                        <div className={style.searchInput}>
+                            <input value={searchValue} onChange={(event) => dispatch(setSearchValue(event.target.value))} type="text" placeholder="Search entiere store here..."/>
+                            <img className={style.searchInput__img} src={search} alt="search"/>
+                        </div>
+                        <div className={style.search__content}>
+                            {searchValue !== "" && (
+                                goods.filter((item) => item.name.includes(searchValue)).map((item) => (
+                                <Link onClick={() => {
+                                    dispatch(setSearchValue(""))
+                                    setActiveSearch(false)}} 
+                                    key={item.id} to={"/techland-store/good-detail/" + item.id}>
+                                    <SearchItem item={item} />
+                                </Link>
+                                ))
+                            )}
+                        </div>
                     </div>
                 ): (
+
                 <ul className={style.list}>
                     {headerList.map((item, index) => (
-                        <li className={item === "Our Deals" ? `${style.unique}` : ""} key={index}><Link to="">{item}</Link></li>
+                       index == 0 ? (
+                           <li key={index}><Link to="/techland-store/laptops">{item}</Link></li>
+                       ) : (
+                        <li key={index}><Link to="/techland-store/desktops">{item}</Link></li>
+                       )
                     ))}
                 </ul>
 
@@ -74,7 +94,11 @@ const HeaderBottom: React.FC = () => {
                 {openList && (
                     <div ref={listRef} className={style.phoneList}>
                         {headerList.map((item, index) => (
-                                <li key={index}><Link to="">{item}</Link></li>
+                                 index == 0 ? (
+                                    <li onClick={() => setOpenList(false)} key={index}><Link to="/techland-store/laptops">{item}</Link></li>
+                                ) : (
+                                 <li onClick={() => setOpenList(false)} key={index}><Link to="/techland-store/desktops">{item}</Link></li>
+                                )
                             ))}
                         <Link to="/techland-store/cart">
                             <div className={style.cartPhone}>
@@ -84,8 +108,20 @@ const HeaderBottom: React.FC = () => {
                             </div>
                         </Link>
                         <div className={style.searchInput2}>
-                            <input type="text" placeholder="Search..."/>
+                            <input value={searchValue} onChange={(event) => dispatch(setSearchValue(event.target.value))}  type="text" placeholder="Search..."/>
                             <img className={style.searchInput__img} src={search} alt="search"/>
+                            <div className={style.search__content2}>
+                                {searchValue !== "" && (
+                                goods.filter((item) => item.name.includes(searchValue)).map((item) => (
+                                    <Link onClick={() => {
+                                        dispatch(setSearchValue(""))
+                                        setActiveSearch(false)}} 
+                                        key={item.id} to={"/techland-store/good-detail/" + item.id}>
+                                        <SearchItem item={item} />
+                                    </Link>
+                                    ))
+                                )}
+                            </div>
                         </div>
                     </div>
                 )}

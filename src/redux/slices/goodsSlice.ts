@@ -12,13 +12,15 @@ type initialStateType = {
     goods: goodsType[];
     status: string;
     currentPage: number,
+    searchValue: string
 
 }
 
 const initialState:initialStateType = {
     goods: [],
     status: Status.LOADING,
-    currentPage: 0
+    currentPage: 0,
+    searchValue: ""
 }
 
 export const fetchGoods = createAsyncThunk(`goods/fetchGoodsById`, async (_ , thunkAPI) => {
@@ -37,6 +39,9 @@ const goodsSlice = createSlice({
         setCurrentPage(state, action) {
             state.currentPage = action.payload
         },
+        setSearchValue(state, action) {
+            state.searchValue = action.payload; 
+        }
       
     },
     extraReducers: (builder) => {
@@ -53,5 +58,5 @@ const goodsSlice = createSlice({
         })
     }
 })
-export const {setGoods, setCurrentPage} = goodsSlice.actions
+export const {setGoods, setCurrentPage, setSearchValue} = goodsSlice.actions
 export default goodsSlice.reducer

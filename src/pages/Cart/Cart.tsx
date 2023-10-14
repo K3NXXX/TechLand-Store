@@ -5,7 +5,7 @@ import zip from "../../assets/goods/zip.svg"
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import { CartItemType, clearItems } from "../../redux/slices/cartSlice";
-import {useRef, useState} from "react"
+import {useEffect, useRef, useState} from "react"
 import { useClickOutside } from "../../hooks/useClickOutside";
 
 const Cart:React.FC = () => {
@@ -14,6 +14,10 @@ const Cart:React.FC = () => {
     const totalCount = items.reduce((sum, item) => sum + item.count, 0)
     const modalRef = useRef<HTMLDivElement>(null)
     const dispatch = useDispatch()
+
+    useEffect(() => {
+        scrollTo(0,0)
+    }, [])
 
     useClickOutside(modalRef, ():void => {
         if (modal) setTimeout(() => setModal(false), 50)

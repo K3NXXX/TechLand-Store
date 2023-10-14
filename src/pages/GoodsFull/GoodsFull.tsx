@@ -18,8 +18,9 @@ const GoodsFull:React.FC = () => {
     const {id} = useParams()
     const dispatch = useDispatch()
 
-   
-
+    useEffect(() => {
+        scrollTo(0,0)
+    }, [])
     
     useEffect(() => {
         async function fetchGoods () {

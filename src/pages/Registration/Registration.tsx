@@ -3,7 +3,7 @@ import {useForm} from "react-hook-form"
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { app } from "../../auth/firebase";
 import { useNavigate } from "react-router-dom";
-import {useState} from "react"
+import {useEffect, useState} from "react"
 
 export type UserDataType = {
     name: string;
@@ -32,6 +32,10 @@ const Registration: React.FC = () => {
         }
        
     }
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     return (  
         <div className={style.root}>
             <div className={style.wrapper}>

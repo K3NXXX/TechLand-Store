@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberpowerPC Gamer Xtreme VR Gaming PC",
         "price": "550",
         "imageURL": "/goodsImages/img2.png",
         "type": "new",
@@ -17,7 +17,7 @@
     },
     {
         "id": "3",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Aegis RS Gaming Desktop",
         "price": "480",
         "imageURL": "/goodsImages/img3.png",
         "type": "new",
@@ -25,7 +25,7 @@
     },
     {
         "id": "4",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Thermaltake Glacier 360 Liquid-Cooled PC",
         "price": "700",
         "imageURL": "/goodsImages/img4.png",
         "type": "new",
@@ -33,7 +33,7 @@
     },
     {
         "id": "5",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberpowerPC Gamer Master Gaming Desktop ",
         "price": "670",
         "imageURL": "/goodsImages/img5.png",
         "type": "new",
@@ -41,7 +41,7 @@
     },
     {
         "id": "6",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"iBUYPOWER SlateMR Gaming PC Computer",
         "price": "878",
         "imageURL": "/goodsImages/img6.png",
         "type": "new",
@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"STGAubron Gaming PC ",
         "price": "780",
         "imageURL": "/goodsImages/img7.png",
         "type": "new",
@@ -57,7 +57,7 @@
     },
     {
         "id": "8",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"iBUYPOWER Gaming PC Computer Desktop Y40314i ",
         "price": "810",
         "imageURL": "/goodsImages/img8.png",
         "type": "new",
@@ -65,55 +65,15 @@
     },
     {
         "id": "9",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"LG FHD 27-Inch Computer Monitor",
         "price": "680",
         "imageURL": "/goodsImages/img9.png",
         "type": "new",
         "rating": 3
     },
     {
-        "id": "10",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "640",
-        "imageURL": "/goodsImages/img10.png",
-        "type": "custom",
-        "rating": 5
-    },
-    {
-        "id": "11",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "590",
-        "imageURL": "/goodsImages/img11.png",
-        "type": "custom",
-        "rating": 4
-    },
-    {
-        "id": "12",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "790",
-        "imageURL": "/goodsImages/img12.png",
-        "type": "custom",
-        "rating": 4
-    },
-    {
-        "id": "13",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "680",
-        "imageURL": "/goodsImages/img13.png",
-        "type": "custom",
-        "rating": 4
-    },
-    {
-        "id": "14",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "840",
-        "imageURL": "/goodsImages/img14.png",
-        "type": "custom",
-        "rating": 5
-    },
-    {
         "id": "15",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Lenovo IdeaPad 3i 14 Laptop",
         "price": "700",
         "imageURL": "/goodsImages/img15.png",
         "type": "laptops",
@@ -125,7 +85,7 @@
     },
     {
         "id": "16",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS Vivobook 15 Laptop",
         "price": "640",
         "imageURL": "/goodsImages/img16.png",
         "type": "laptops",
@@ -137,7 +97,7 @@
     },
     {
         "id": "17",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS 2023 Vivobook Go 15 Laptop",
         "price": "770",
         "imageURL": "/goodsImages/img17.png",
         "type": "laptops",
@@ -150,7 +110,7 @@
     },
     {
         "id": "18",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"HP 15.6 Touchscreen Newest Flagship HD Laptop",
         "price": "820",
         "imageURL": "/goodsImages/img17.png",
         "type": "laptops",
@@ -163,7 +123,7 @@
     },
     {
         "id": "19",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS TUF Gaming A17 Gaming Laptop",
         "price": "810",
         "imageURL": "/goodsImages/img18.png",
         "type": "laptops",
@@ -176,7 +136,7 @@
     },
     {
         "id": "20",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberpowerPC Gamer Master Gaming Desktop",
         "price": "760",
         "imageURL": "/goodsImages/img20.png",
         "type": "desktops",
@@ -189,7 +149,7 @@
     },
     {
         "id": "21",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"iBuyPower SlateMesh Gaming PC",
         "price": "540",
         "imageURL": "/goodsImages/img21.png",
         "type": "desktops",
@@ -202,7 +162,7 @@
     },
     {
         "id": "22",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberPowerPC Gamer Xtreme VR Gaming PC",
         "price": "800",
         "imageURL": "/goodsImages/img30.png",
         "type": "desktops",
@@ -215,7 +175,7 @@
     },
     {
         "id": "23",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"SkyTech Archangel 3.0 Gaming Computer",
         "price": "900",
         "imageURL": "/goodsImages/img23.png",
         "type": "desktops",
@@ -228,7 +188,7 @@
     },
     {
         "id": "24",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CYBERPOWERPC Gamer Xtreme VR Gaming PC",
         "price": "760",
         "imageURL": "/goodsImages/img23.png",
         "type": "desktops",
@@ -240,52 +200,8 @@
 
     },
     {
-        "id": "25",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "600",
-        "imageURL": "/goodsImages/img25.png",
-        "type": "monitors",
-        "rating": 4
-
-    },
-    {
-        "id": "26",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "630",
-        "imageURL": "/goodsImages/img26.png",
-        "type": "monitors",
-        "rating": 5
-
-    },
-    {
-        "id": "27",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "650",
-        "imageURL": "/goodsImages/img27.png",
-        "type": "monitors",
-        "rating": 4
-
-    },
-    {
-        "id": "28",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "700",
-        "imageURL": "/goodsImages/img28.png",
-        "type": "monitors",
-        "rating": 4
-
-    },
-    {
-        "id": "29",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
-        "price": "690",
-        "imageURL": "/goodsImages/img29.png",
-        "type": "monitors",
-        "rating": 3
-    },
-    {
         "id": "30",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS TUF Gaming F17",
         "price": "1100",
         "imageURL": "/goodsImages/img31.png",
         "type": "laptops",
@@ -296,7 +212,7 @@
     },
     {
         "id": "31",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Thin GF63 Gaming Laptop",
         "price": "1500",
         "imageURL": "/goodsImages/img31.png",
         "type": "laptops",
@@ -307,7 +223,7 @@
     },
     {
         "id": "32",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI GF63 Thin 11SC-693 15.6",
         "price": "1600",
         "imageURL": "/goodsImages/img32.png",
         "type": "laptops",
@@ -318,7 +234,7 @@
     },
     {
         "id": "33",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Katana 17 Gaming Laptop",
         "price": "2690",
         "imageURL": "/goodsImages/img33.png",
         "type": "laptops",
@@ -329,7 +245,7 @@
     },
     {
         "id": "34",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS TUF F17 Gaming Laptop, 17.3",
         "price": "3690",
         "imageURL": "/goodsImages/img34.png",
         "type": "laptops",
@@ -340,7 +256,7 @@
     },
     {
         "id": "35",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS TUF FX505DT Gaming Laptop",
         "price": "1700",
         "imageURL": "/goodsImages/img35.png",
         "type": "laptops",
@@ -351,7 +267,7 @@
     },
     {
         "id": "36",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Lenovo IdeaPad Gaming 3 15 Laptop",
         "price": "3690",
         "imageURL": "/goodsImages/img36.png",
         "type": "laptops",
@@ -362,7 +278,7 @@
     },
     {
         "id": "37",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Acer Nitro 5 AN515-58-57Y8 Gaming Laptop",
         "price": "2500",
         "imageURL": "/goodsImages/img37.png",
         "type": "laptops",
@@ -373,7 +289,7 @@
     },
     {
         "id": "38",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS TUF Gaming F15 Gaming Laptop",
         "price": "3690",
         "imageURL": "/goodsImages/img38.png",
         "type": "laptops",
@@ -383,7 +299,7 @@
     },
     {
         "id": "39",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Cyborg 15 Gaming Laptop",
         "price": "5490",
         "imageURL": "/goodsImages/img39.png",
         "type": "laptops",
@@ -394,7 +310,7 @@
     },
     {
         "id": "40",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS ROG Strix G15 ",
         "price": "3690",
         "imageURL": "/goodsImages/img40.png",
         "type": "laptops",
@@ -405,7 +321,7 @@
     },
     {
         "id": "41",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Newest MSI GF63 Thin Gaming Laptop",
         "price": "2640",
         "imageURL": "/goodsImages/img41.png",
         "type": "laptops",
@@ -416,7 +332,7 @@
     },
     {
         "id": "42",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Lenovo - IdeaPad L340 15 Gaming Laptop",
         "price": "4290",
         "imageURL": "/goodsImages/img42.png",
         "type": "laptops",
@@ -427,7 +343,7 @@
     },
     {
         "id": "43",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"GIGABYTE G5 KF: 15.6",
         "price": "5290",
         "imageURL": "/goodsImages/img43.png",
         "type": "laptops",
@@ -438,7 +354,7 @@
     },
     {
         "id": "44",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS ROG Strix G17 (2023) Gaming Lapto",
         "price": "2990",
         "imageURL": "/goodsImages/img44.png",
         "type": "laptops",
@@ -449,7 +365,7 @@
     },
     {
         "id": "45",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS ROG Strix Scar 18",
         "price": "6490",
         "imageURL": "/goodsImages/img45.png",
         "type": "laptops",
@@ -460,7 +376,7 @@
     },
     {
         "id": "46",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS TUF Gaming Gaming Laptop",
         "price": "6690",
         "imageURL": "/goodsImages/img46.png",
         "type": "laptops",
@@ -471,7 +387,7 @@
     },
     {
         "id": "47",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ell Alienware m18 Gaming Laptop (2023)",
         "price": "3650",
         "imageURL": "/goodsImages/img47.png",
         "type": "laptops",
@@ -482,7 +398,7 @@
     },
     {
         "id": "48",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS ROG Strix Scar 15 Gaming Laptop",
         "price": "4290",
         "imageURL": "/goodsImages/img48.png",
         "type": "laptops",
@@ -493,7 +409,7 @@
     },
     {
         "id": "49",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS Chromebook Vibe CX55 Flip",
         "price": "5550",
         "imageURL": "/goodsImages/img48.png",
         "type": "laptops",
@@ -504,7 +420,7 @@
     },
     {
         "id": "50",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberpowerPC Gamer Xtreme VR Gaming",
         "price": "1300",
         "imageURL": "/goodsImages/img50.webp",
         "type": "desktops",
@@ -516,7 +432,7 @@
     },
     {
         "id": "51",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"HP Pavilion Gaming Desktop",
         "price": "1300",
         "imageURL": "/goodsImages/img51.webp",
         "type": "desktops",
@@ -528,7 +444,7 @@
     },
     {
         "id": "52",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Latest HP OMEN 30L Gaming Desktop",
         "price": "1560",
         "imageURL": "/goodsImages/img52.webp",
         "type": "desktops",
@@ -540,7 +456,7 @@
     },
     {
         "id": "53",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Thermaltake Arctic i360T R4 AIO",
         "price": "1450",
         "imageURL": "/goodsImages/img53.webp",
         "type": "desktops",
@@ -551,7 +467,7 @@
     },
     {
         "id": "54",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"HP Victus 15.6",
         "price": "1340",
         "imageURL": "/goodsImages/img54.webp",
         "type": "desktops",
@@ -562,7 +478,7 @@
     },
     {
         "id": "55",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"iBuyPower Gaming PC Computer Desktop",
         "price": "6530",
         "imageURL": "/goodsImages/img55.webp",
         "type": "desktops",
@@ -573,7 +489,7 @@
     },
     {
         "id": "56",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Dell Alienware ",
         "price": "4360",
         "imageURL": "/goodsImages/img56.webp",
         "type": "desktops",
@@ -584,7 +500,7 @@
     },
     {
         "id": "57",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Computer GF63",
         "price": "1420",
         "imageURL": "/goodsImages/img57.webp",
         "type": "desktops",
@@ -595,7 +511,7 @@
     },
     {
         "id": "58",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberpowerPC Gamer Supreme",
         "price": "4320",
         "imageURL": "/goodsImages/img58.webp",
         "type": "desktops",
@@ -606,7 +522,7 @@
     },
     {
         "id": "59",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"CyberPowerPC Gamer Supreme",
         "price": "2140",
         "imageURL": "/goodsImages/img59.webp",
         "type": "desktops",
@@ -617,7 +533,7 @@
     },
     {
         "id": "60",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Aegis RS Gaming Desktop",
         "price": "5460",
         "imageURL": "/goodsImages/img60.webp",
         "type": "desktops",
@@ -628,7 +544,7 @@
     },
     {
         "id": "61",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"ASUS ROG Strix Scar 16",
         "price": "7650",
         "imageURL": "/goodsImages/img61.webp",
         "type": "desktops",
@@ -639,7 +555,7 @@
     },
     {
         "id": "62",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Raider GE77HX 17.3",
         "price": "6310",
         "imageURL": "/goodsImages/img62.webp",
         "type": "desktops",
@@ -650,7 +566,7 @@
     },
     {
         "id": "63",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Delta 15 ",
         "price": "3450",
         "imageURL": "/goodsImages/img63.webp",
         "type": "desktops",
@@ -661,7 +577,7 @@
     },
     {
         "id": "64",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"MSI Modern 14",
         "price": "5900",
         "imageURL": "/goodsImages/img64.webp",
         "type": "desktops",
@@ -672,12 +588,12 @@
     },
     {
         "id": "65",
-        "name":"EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH",
+        "name":"Lenovo IdeaCentre 5 Gaming Desktop",
         "price": "4200",
         "imageURL": "/goodsImages/img65.webp",
         "type": "desktops",
         "rating": 4,
-        "category": "HP/COMPAQ Desktops",
+        "category": "HP 2022 Gaming Laptop VICTUS",
         "color": "black",
         "brand": "hp"
     }
