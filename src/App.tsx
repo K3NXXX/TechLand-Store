@@ -1,7 +1,5 @@
 import Header from "./components/Header/Header"
 import Home from "./pages/Home/Home"
-import style from "./App.module.scss"
-import {Routes, Route} from "react-router-dom"
 import Footer from "./components/Footer/Footer"
 import Login from "./pages/Login/Login"
 import NewGoodsAll from "./pages/NewGoodsAll/NewGoodsAll"
@@ -11,6 +9,8 @@ import GoodsFull from "./pages/GoodsFull/GoodsFull"
 import Cart from "./pages/Cart/Cart"
 import Registration from "./pages/Registration/Registration"
 import Account from "./pages/Account/Account"
+import {Routes, Route} from "react-router-dom"
+import style from "./App.module.scss"
 
 function App() {
 
@@ -30,7 +30,6 @@ function App() {
             <Route path="/techland-store/new-goods" element={<NewGoodsAll/>}/>
             <Route path="/techland-store/registration" element={<Registration/>}/>
             <Route path="/techland-store/good-detail/:id" element={<GoodsFull/>}/>
-            
         </Routes>
       </main>
       <footer>

@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
+import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit"
 import { goodsType } from "../../lists/goodsList"
 import axios from "axios";
 
@@ -33,13 +33,13 @@ const goodsSlice = createSlice({
     name: "goods",
     initialState,
     reducers: {
-        setGoods(state, action) {
+        setGoods(state, action:PayloadAction<goodsType[]>) {
             state.goods = action.payload
         },
-        setCurrentPage(state, action) {
+        setCurrentPage(state, action:PayloadAction<number>) {
             state.currentPage = action.payload
         },
-        setSearchValue(state, action) {
+        setSearchValue(state, action:PayloadAction<string>) {
             state.searchValue = action.payload; 
         }
       

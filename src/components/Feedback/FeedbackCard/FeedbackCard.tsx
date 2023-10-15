@@ -13,7 +13,6 @@ const FeedbackCard: React.FC<FeedbackCardType> = ({item}) => {
                 <p className={style.comment}>{item.comment}</p>
             </div>
             <p className={style.name}>- {item.name}</p>
-
         </div>
     );
 }

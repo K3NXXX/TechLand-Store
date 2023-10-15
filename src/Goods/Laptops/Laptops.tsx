@@ -1,11 +1,11 @@
-import style from "./Laptops.module.scss"
-import laptopsImg from "../../assets/goods/laptopsImg.png"
+import GoodsCard from "../GooodsCard/GoodsCard";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import { goodsType } from "../../lists/goodsList";
 import {useState} from "react"
-import GoodsCard from "../GooodsCard/GoodsCard";
+import style from "./Laptops.module.scss"
+import laptopsImg from "../../assets/goods/laptopsImg.png"
 
 const Laptops: React.FC = () => {
     const [active, setActive] = useState<number | null>(null)
@@ -33,18 +33,17 @@ const Laptops: React.FC = () => {
                 </div>
                 </Link>
                 <div className={style.right}>
-                {
-                active == null ? (
-                    laptopsGoods.slice(0,5).map((good) => <GoodsCard key={good.id} good={good} />)
-                ) : laptopsGoods.filter((good) => good.series === series).length ? (
-                    laptopsGoods
-                    .filter((good) => good.series === series)
-                    .map((good: goodsType) => <GoodsCard key={good.id} good={good} />)
-                ) : (
-                    <p className={style.notFound}>Not Found</p>
-                )
-                }
-               
+                    {
+                    active == null ? (
+                        laptopsGoods.slice(0,5).map((good) => <GoodsCard key={good.id} good={good} />)
+                    ) : laptopsGoods.filter((good) => good.series === series).length ? (
+                        laptopsGoods
+                        .filter((good) => good.series === series)
+                        .map((good: goodsType) => <GoodsCard key={good.id} good={good} />)
+                    ) : (
+                        <p className={style.notFound}>Not Found</p>
+                    )
+                    }
                 </div>
             </div>
         </div>

@@ -10,7 +10,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const Feedback: React.FC = () => {
-
     const [comment, setComment] = useState<boolean>(false)
     const [name, setName] = useState<string>("")
     const [feedback, setFeedback] = useState<string>("")
@@ -45,35 +44,33 @@ const Feedback: React.FC = () => {
 
     return (  
         <div className={style.wrapper}>
-        <section className={style.root}>
-            <div className={style.comments__list}>
-                <Swiper
-                spaceBetween={100}
-                slidesPerView={1}
-                pagination={{
-                clickable: true,
-                }}
-                modules={[Pagination]}
-                speed={1000}
-                >
-                {feedbackList.map((item) => (
-                        <SwiperSlide key={item.id}><FeedbackCard  item = {item}/></SwiperSlide>
-                    ))}
-                </Swiper>
-                {!remove ? (<button onClick={() => setComment(true)} className={style.addBtn}>Leave Us A Review</button>) : ""}
-                {remove && (<button onClick={() => removeFeedback()} className={style.removeBtn}>Remove feedback</button>)}
-
-            </div>
-            {comment && (
-                <div ref={popupRef} className={style.modal}>
-                    <input onChange={(e) => setName(e.target.value)} type="text" placeholder="name"/>
-                    <input onChange={(e) => setFeedback(e.target.value)} type="text" placeholder="your feedback (max 320 characters)"/>
-                    <button  onClick={addFeedback}>Add feedback</button>
-                    <img onClick={() => setComment(false)} className={style.close} src={close} alt="close-icon" />
+            <section className={style.root}>
+                <div className={style.comments__list}>
+                    <Swiper
+                    spaceBetween={100}
+                    slidesPerView={1}
+                    pagination={{
+                    clickable: true,
+                    }}
+                    modules={[Pagination]}
+                    speed={1000}
+                    >
+                    {feedbackList.map((item) => (
+                            <SwiperSlide key={item.id}><FeedbackCard  item = {item}/></SwiperSlide>
+                        ))}
+                    </Swiper>
+                    {!remove ? (<button onClick={() => setComment(true)} className={style.addBtn}>Leave Us A Review</button>) : ""}
+                    {remove && (<button onClick={() => removeFeedback()} className={style.removeBtn}>Remove feedback</button>)}
                 </div>
-            )}
-
-        </section>
+                {comment && (
+                    <div ref={popupRef} className={style.modal}>
+                        <input onChange={(e) => setName(e.target.value)} type="text" placeholder="name"/>
+                        <input onChange={(e) => setFeedback(e.target.value)} type="text" placeholder="your feedback (max 320 characters)"/>
+                        <button  onClick={addFeedback}>Add feedback</button>
+                        <img onClick={() => setComment(false)} className={style.close} src={close} alt="close-icon" />
+                    </div>
+                )}
+            </section>
         </div>
     );
 }

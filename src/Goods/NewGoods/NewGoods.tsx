@@ -53,7 +53,7 @@ const NewGoods: React.FC = () => {
             window.removeEventListener("resize", resizeWindow)
         }
 
-    }, [])
+    }, [slidesPerView])
     return (  
         <section className={style.root}>
             <div className={style.top}>

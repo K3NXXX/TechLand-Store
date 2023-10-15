@@ -1,11 +1,11 @@
-import style from "./Desktop.module.scss"
-import {useState} from "react"
 import GoodsCard from "../GooodsCard/GoodsCard";
+import {useState} from "react"
 import { useSelector } from "react-redux/es/hooks/useSelector";
 import { RootState } from "../../redux/store";
-import desktopsImg from "../../assets/goods/desktopsImg.png"
 import { Link } from "react-router-dom";
 import { goodsType } from "../../lists/goodsList";
+import style from "./Desktop.module.scss"
+import desktopsImg from "../../assets/goods/desktopsImg.png"
 
 const Desktops:React.FC = () => {
     const [active, setActive] = useState<number | null>(null)
@@ -46,7 +46,6 @@ const Desktops:React.FC = () => {
                 }
                 </div>
             </div>
-
         </div>
     );
 }

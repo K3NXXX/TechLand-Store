@@ -1,5 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
-import defaultAvatar from "../../assets/account/accountImgBig.jpg"
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import defaultAvatar from "../../assets/account/no-account.svg"
 
 type initialStateType = {
     userAuth: boolean;
@@ -15,10 +15,10 @@ const authSlice = createSlice({
     name: "auth",
     initialState,
     reducers: {
-        setUserAuth(state, action) {
+        setUserAuth(state, action:PayloadAction<boolean>) {
             state.userAuth = action.payload
         },
-        setAvatar(state, action) {
+        setAvatar(state, action:PayloadAction<string>) {
             state.avatar = action.payload
         }
       

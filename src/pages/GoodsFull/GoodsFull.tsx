@@ -15,7 +15,7 @@ const GoodsFull:React.FC = () => {
     const [activeDetail, setActiveDetail] = useState<number>(0)
     const detailsList = ["About Product", "Details", "Specs"]
     const [goods, setGoods] = useState<goodsType>()
-    const {id} = useParams()
+    const { id: urlId } = useParams()
     const dispatch = useDispatch()
 
     useEffect(() => {
@@ -23,16 +23,21 @@ const GoodsFull:React.FC = () => {
     }, [])
     
     useEffect(() => {
-        async function fetchGoods () {
+        if (urlId !== goods?.id) {
+          async function fetchGoods() {
             try {
-                const {data} = await axios.get(`https://64f776fe9d77540849539c0d.mockapi.io/goods/` + id)
-                setGoods(data)
+              const { data } = await axios.get(
+                `https://64f776fe9d77540849539c0d.mockapi.io/goods/` + urlId
+              );
+              setGoods(data);
             } catch (error) {
-                console.log("ERROR", error)
+              console.log("ERROR", error);
             }
+          }
+          fetchGoods();
         }
-        fetchGoods()
-    }, [fetchGoods])
+      }, [urlId, goods]);
+
     const onClickAdd = () : void => {
         if (goods) {
             const item: CartItemType = {
@@ -47,7 +52,7 @@ const GoodsFull:React.FC = () => {
     }
   
     if (!goods) {
-        return <>Loading...</>
+        return <div className={style.loading}>Loading...</div>
     }
 
     return (  

@@ -1,10 +1,10 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import style from "./Carousel.module.scss"
 import image1 from "../../assets/carousel/img1.jpg"
 import image2 from "../../assets/carousel/img2.jpg"
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 const Carousel: React.FC = () => {
     return (  

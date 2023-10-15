@@ -13,7 +13,6 @@
         align-items: center;
         .logo {
             position: relative;
-            z-index: 21;
         }
         .seach__wrapper {
             position: relative;
@@ -48,6 +47,51 @@
                     }
                    
                 }
+                .autocomplete {
+                    position: absolute;
+                    z-index: 20;
+                    background-color: white;
+                    width: 700px;
+                    list-style: none;
+                    max-height: 500px;
+                    overflow: auto;
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px 0;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 20px; 
+                    a {
+                        display: flex;
+                        gap: 0px 30px;
+                        align-items: center;
+                        img {
+                            max-width: 100px;
+                        }
+                        p {
+                            color: var(--Color---7, #000);
+                        }
+                    }
+                    li {
+                        padding: 10px;
+                        cursor: pointer;
+                        transition: 0.3s ease;
+                        &:hover {
+                            background-color: rgb(180,180,180);
+                        }
+                    }
+                }
+                .autocomplete::-webkit-scrollbar {
+                    width: 12px; /* Ширина скролбара */
+                }
+                .autocomplete::-webkit-scrollbar-thumb {
+                    background-color: rgb(150, 150, 150); /* Колір скролбару */
+                    border-radius: 6px; /* Закругленість скролбару */
+                }
+              
                 .searchInput__img {
                     position: absolute;
                     top: 22px;
@@ -152,7 +196,6 @@
             height: 20px;
             cursor: pointer;
             position: relative;
-            z-index: 21;
             span {
                 width: 100%;
                 height: 3px;
@@ -165,7 +208,7 @@
             font-size: 20px;
             flex-direction: column;
             list-style: none;
-            padding-top: 150px;
+            padding-top: 68px;
             padding-left: 30px;
             background-color: #A2A6B0;
             min-height: 100vh;
@@ -178,8 +221,13 @@
             a {
                 color: #0156FF;
             }
+            .phoneList__top {
+                display: flex;
+                gap: 0 40px;
+                align-items: center;
+            }
             @media (max-width:1000px) {
-                padding-top: 120px;
+                padding-top: 25px;
             }
             @media (max-width:460px) {
                 width: 230px;

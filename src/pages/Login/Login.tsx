@@ -42,7 +42,7 @@ const Login:React.FC = () => {
                     console.log(errorCode, errorMessage);
                 });
         } else {
-            console.log("Пользователь уже авторизован");
+            console.log("Користувач вже зареєстрований");
         }
     };
 
