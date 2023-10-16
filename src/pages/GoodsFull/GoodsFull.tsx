@@ -7,7 +7,6 @@ import Services from "../../components/Services/Services"
 import { goodsType } from "../../lists/goodsList"
 import {useEffect} from "react"
 import axios from "axios"
-import { fetchGoods } from "../../redux/slices/goodsSlice"
 import { CartItemType, addItems } from "../../redux/slices/cartSlice"
 import { useDispatch } from "react-redux"
 
