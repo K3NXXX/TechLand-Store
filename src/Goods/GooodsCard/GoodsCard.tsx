@@ -12,7 +12,11 @@ const GoodsCard: React.FC<GoodsCardType> = ({good}) => {
     return (  
         <Link to={`/techland-store/good-detail/${good.id}`}>
             <div className={style.root}>
-                <img className={style.goodImg} src={ good.imageURL} alt="goods image" />
+            <img
+            className={style.goodImg}
+            src={process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL + good.imageURL : good.imageURL}
+            alt="goods image"
+            />
                 <div className={style.rating}>
                     {[...new Array(5)].map((_, index) => (<img className={style.star} key={index} src={greyStar} alt="rating star"/>))}
                     <div>
