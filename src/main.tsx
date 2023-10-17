@@ -7,7 +7,7 @@ import { store } from './redux/store.ts'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/techland-store">
     <Provider store={store}>
         <App />
     </Provider>
