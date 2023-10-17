@@ -1,4 +1,3 @@
-import SearchItem from "./SearchItem/SearchItem"
 import {Link} from "react-router-dom"
 import {useState, useRef, useEffect} from "react"
 import { useClickOutside } from "../../../hooks/useClickOutside"
@@ -64,7 +63,7 @@ const HeaderBottom: React.FC = () => {
                             <input value={searchValue} onChange={(event) => dispatch(setSearchValue(event.target.value))} 
                             type="text" placeholder="Search entiere store here..."/>
                             <img className={style.searchInput__img} src={search} alt="search"/>
-                            {searchValue && (
+                            {searchValue ? (
                                 <ul className={style.autocomplete}>
                                     {searchValue ? goods.filter((item) => item.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())).map((item) => (
                                         <Link onClick={() => {
@@ -78,7 +77,7 @@ const HeaderBottom: React.FC = () => {
                                     ))
                                     : null}
                                 </ul>
-                            )}
+                            ): ""}
                         </div>
                     </div>
                 ): (
@@ -122,19 +121,21 @@ const HeaderBottom: React.FC = () => {
                             <input value={searchValue} onChange={(event) => dispatch(setSearchValue(event.target.value))}  type="text" placeholder="Search..."/>
                             <img className={style.searchInput__img} src={search} alt="search"/>
                             <div className={style.search__content2}>
-                                {searchValue !== "" && (
-                                goods.filter((item) => item.name.includes(searchValue)).map((item) => (
-                                    <Link onClick={() => {
-                                        setOpenList(false)
-                                        dispatch(setSearchValue(""))
-                                        setActiveSearch(false)
-                                        
-                                    }} 
-                                        key={item.id} to={"/techland-store/good-detail/" + item.id}>
-                                        <SearchItem item={item} />
-                                    </Link>
+                              {searchValue ? (
+                                <ul className={style.autocomplete}>
+                                    {searchValue ? goods.slice(0,5).filter((item) => item.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())).map((item) => (
+                                        <Link onClick={() => {
+                                            dispatch(setSearchValue(""))
+                                            setActiveSearch(false)
+                                        }}  to={"/techland-store/good-detail/" + item.id}>
+                                            <img src={item.imageURL} alt="good's image"/>
+                                            <p>{item.name}</p>
+                                            <p>${item.price}</p>
+                                        </Link>
                                     ))
-                                )}
+                                    : null}
+                                </ul>
+                            ): ""}
                             </div>
                         </div>
                     </div>

@@ -49,7 +49,7 @@
                 }
                 .autocomplete {
                     position: absolute;
-                    z-index: 20;
+                    z-index: 70;
                     background-color: white;
                     width: 700px;
                     list-style: none;
@@ -64,12 +64,20 @@
                     font-style: normal;
                     font-weight: 500;
                     line-height: 20px; 
+                    @media (max-width:1050px) {
+                        width: 400px;
+                        font-size: 14px;
+                    }
                     a {
                         display: flex;
                         gap: 0px 30px;
                         align-items: center;
                         img {
                             max-width: 100px;
+                            @media (max-width:670px) {
+                                max-width: 10px;
+                               
+                            }
                         }
                         p {
                             color: var(--Color---7, #000);
@@ -210,14 +218,15 @@
             list-style: none;
             padding-top: 68px;
             padding-left: 30px;
-            background-color: #A2A6B0;
+            background-color: #eeeeee;
+            border: 2px solid #0156FF;
             min-height: 100vh;
             width: 300px;
             border-radius: 0 20px 20px 0;
             position: fixed;
             top: 0;
             left: 0;
-            z-index: 20;
+            z-index: 80;
             a {
                 color: #0156FF;
             }
@@ -271,6 +280,33 @@
         left: -10px;
         .search__content2 {
             position: relative;
+            .autocomplete {
+                padding-right: 10px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px 0;
+                a {
+                display: flex;
+                align-items: center;
+                gap: 0 20px;
+                @media (max-width:460px) {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    gap: 10px 0;
+                    border-bottom: 1px solid #b3b3b3;
+                    padding-bottom: 10px;
+                }
+                    img {
+                        max-width: 50px;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #000;
+                    }
+                }
+            }
         }
         input {
             border-radius: 31px;
