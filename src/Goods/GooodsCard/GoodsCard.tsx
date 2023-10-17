@@ -9,12 +9,15 @@ type GoodsCardType = {
     good: goodsType;
 }
 const GoodsCard: React.FC<GoodsCardType> = ({good}) => {
+    function getImgUrl(name: string) {
+        return new URL(`${name}`, import.meta.url).href
+     }
     return (  
         <Link to={`/techland-store/good-detail/${good.id}`}>
             <div className={style.root}>
             <img
             className={style.goodImg}
-            src={process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL + good.imageURL : good.imageURL}
+            src={ getImgUrl(good.imageURL) }
             alt="goods image"
             />
                 <div className={style.rating}>
