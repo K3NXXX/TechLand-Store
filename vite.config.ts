@@ -6,7 +6,7 @@ import path from "path"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  base: "/techland-store/",
+  base: "/",
   resolve: {
     alias: {
       src: path.resolve('./'),
