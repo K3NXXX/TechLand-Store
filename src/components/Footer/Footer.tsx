@@ -6,8 +6,10 @@ import card2 from "../../assets/footer/card2.png"
 import card3 from "../../assets/footer/card3.png"
 import card4 from "../../assets/footer/card4.png"
 import card5 from "../../assets/footer/card5.png"
+import { useState } from "react"
 
 const Footer:React.FC = () => {
+    const [text, setText] = useState("")
     return (  
         <footer className={style.footer}>
             <div className={style.wrapper}>
@@ -17,8 +19,8 @@ const Footer:React.FC = () => {
                         <p>Be the first to hear about the latest offers.</p>
                     </div>
                     <div className={style.top__right}>
-                        <input type="text" placeholder="Your Email"/>
-                        <button>Subscribe</button>
+                        <input value={text} onChange={(event) => setText(event.target.value)} type="text" placeholder="Your Email"/>
+                        <button onClick={() => setText("")}>Subscribe</button>
                     </div>
                 </div>
                 <div className={style.footer__bottom}>
