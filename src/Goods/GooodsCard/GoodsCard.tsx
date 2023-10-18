@@ -15,7 +15,7 @@ const GoodsCard: React.FC<GoodsCardType> = ({good}) => {
             <div className={style.root}>
             <img
             className={style.goodImg}
-            src={process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL + good.imageURL : good.imageURL}
+            src={ good.imageURL}
             alt="goods image"
             />
                 <div className={style.rating}>
